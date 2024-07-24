@@ -11,7 +11,7 @@ function App() {
           Sine Wave from 180° to 360°
         </h6>
         <p className="text-customCyan font-semibold">Group 8</p>
-        <div className="max-w-lg mx-auto p-4">
+        <div className="w-[70%] mx-auto p-4">
           <SineWave />
           <SineAnimation />
         </div>

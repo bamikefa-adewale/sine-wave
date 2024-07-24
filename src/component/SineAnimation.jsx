@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import { useSpring, animated } from "@react-spring/web";
@@ -80,7 +81,7 @@ const SineAnimation = () => {
 
   return (
     <animated.div className=" bg-white shadow-lg rounded-lg">
-      <div className="overflow-hidden rounded-lg">
+      <div className=" rounded-lg">
         <animated.div style={{ color: animatedProgress }}>
           <Line data={data} options={options} />
         </animated.div>

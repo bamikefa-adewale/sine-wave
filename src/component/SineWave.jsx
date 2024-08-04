@@ -1,4 +1,5 @@
 import { Line } from "react-chartjs-2";
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -55,7 +56,13 @@ const SineWave = () => {
     },
   };
 
-  return <Line data={data} options={options} />;
+  return (
+    <div className="bg-white rounded-lg mb-2">
+      <div>
+        <Line data={data} options={options} />
+      </div>
+    </div>
+  );
 };
 
 export default SineWave;

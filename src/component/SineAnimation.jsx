@@ -80,12 +80,10 @@ const SineAnimation = () => {
   };
 
   return (
-    <animated.div className=" bg-white shadow-lg rounded-lg">
-      <div className=" rounded-lg">
-        <animated.div style={{ color: animatedProgress }}>
-          <Line data={data} options={options} />
-        </animated.div>
-      </div>
+    <animated.div className="bg-white rounded-lg mb-2 ">
+      <animated.div style={{ color: animatedProgress }}>
+        <Line data={data} options={options} />
+      </animated.div>
     </animated.div>
   );
 };
